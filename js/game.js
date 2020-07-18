@@ -9,11 +9,11 @@ window.addEventListener("DOMContentLoaded", function () {
         pipeUp = new Image(),
         pipeBottom = new Image();
 
-    bird.src = "../images/flappy_bird_bird.png";
-    bg.src = "../images/flappy_bird_bg.png";
-    fg.src = "../images/flappy_bird_fg.png";
-    pipeUp.src = "../images/flappy_bird_pipeUp.png";
-    pipeBottom.src = "../images/flappy_bird_pipeBottom.png";
+    bird.src = "./images/flappy_bird_bird.png";
+    bg.src = "./images/flappy_bird_bg.png";
+    fg.src = "./images/flappy_bird_fg.png";
+    pipeUp.src = "./images/flappy_bird_pipeUp.png";
+    pipeBottom.src = "./images/flappy_bird_pipeBottom.png";
 
 
 
@@ -32,8 +32,8 @@ window.addEventListener("DOMContentLoaded", function () {
     var fly = new Audio(),
         scoreAudio = new Audio();
 
-    fly.src = "../js_game_audio/fly.mp3";
-    scoreAudio.src = "../js_game_audio/score.mp3";
+    fly.src = "./js_game_audio/fly.mp3";
+    scoreAudio.src = "./js_game_audio/score.mp3";
 
     // moveUp height
     function moveUp() {
